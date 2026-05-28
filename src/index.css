@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    @apply min-h-screen bg-cream font-sans text-base text-dark antialiased;
+  }
+
+  button {
+    @apply cursor-pointer border-0 bg-transparent p-0;
+    font: inherit;
+  }
+}
